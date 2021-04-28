@@ -26,7 +26,7 @@ namespace GlisseTonPiedBot.Modules
 
         public String convertWebImage()
         {
-            String fillChemin = "image/imgtmp.png";
+            String fillChemin = "/home/bastien/Documents/bot/GlisseTonPiedDiscordBot/GlisseTonPiedBotDotNet/bin/Debug/net5.0/image/imgtmp.png";
             using (WebClient webClient = new WebClient())
             {
                 webClient.DownloadFile(imageLink, fillChemin);
@@ -37,7 +37,7 @@ namespace GlisseTonPiedBot.Modules
 
         public String Brightness()
         {
-            String EditFillChemin = "image / update.png";
+            String EditFillChemin = "/home/bastien/Documents/bot/GlisseTonPiedDiscordBot/GlisseTonPiedBotDotNet/bin/Debug/net5.0/image/update.png";
             using (Image image = Image.Load(convertWebImage()))
             {
                 
@@ -55,7 +55,7 @@ namespace GlisseTonPiedBot.Modules
                        
                     }
                 }));
-                image.Save("image/update.png");
+                image.Save("/home/bastien/Documents/bot/GlisseTonPiedDiscordBot/GlisseTonPiedBotDotNet/bin/Debug/net5.0/image/update.png");
                 // image.Save(outPath);
                 return EditFillChemin;
             }
@@ -64,11 +64,11 @@ namespace GlisseTonPiedBot.Modules
 
         public String writeMessageOnImage(String text, String text1, String text2, String text3, String text4, int nbArgument)
         {
-            String EditFillChemin = "image / update.png";
+            String EditFillChemin = "/home/bastien/Documents/bot/GlisseTonPiedDiscordBot/GlisseTonPiedBotDotNet/bin/Debug/net5.0/image/update.png";
 
             FontCollection collection = new FontCollection();
-            FontFamily arial = collection.Install("font/arial.ttf");
-            FontFamily Burbank = collection.Install("font/Burbank.ttf");
+            //FontFamily arial = collection.Install("font/arial.ttf");
+            FontFamily Burbank = collection.Install("/home/bastien/Documents/bot/GlisseTonPiedDiscordBot/GlisseTonPiedBotDotNet/bin/Debug/net5.0/font/Burbank.ttf");
             using (Image image = Image.Load(convertWebImage()))
             {
 
@@ -123,7 +123,7 @@ namespace GlisseTonPiedBot.Modules
                 image.Mutate(x => x.DrawText(finalText, fontBorder, Color.Black, new PointF(image.Width / 100, image.Height / 100)));
                 image.Mutate(x => x.DrawText(finalText, font, Color.White, new PointF(image.Width/100, image.Height/100)));
 
-                image.Save("image/update.png");
+                image.Save("/home/bastien/Documents/bot/GlisseTonPiedDiscordBot/GlisseTonPiedBotDotNet/bin/Debug/net5.0/image/update.png");
                 // image.Save(outPath);
                 return EditFillChemin;
             }

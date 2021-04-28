@@ -147,7 +147,7 @@ namespace GlisseTonPiedBot.Modules
             editImage.Brightness();
             
 
-            await Context.Channel.SendFileAsync("image\\update.png", "Caption goes here");
+            await Context.Channel.SendFileAsync("/home/bastien/Documents/bot/GlisseTonPiedDiscordBot/GlisseTonPiedBotDotNet/bin/Debug/net5.0/image/update.png", "Caption goes here");
 
         }
 
@@ -171,7 +171,7 @@ namespace GlisseTonPiedBot.Modules
             Console.WriteLine(user.GetAvatarUrl());
             editImage.writeMessageOnImage(text, text1, text2, text3, text4, nbArgument);
 
-            await Context.Channel.SendFileAsync("image\\update.png");
+            await Context.Channel.SendFileAsync("/home/bastien/Documents/bot/GlisseTonPiedDiscordBot/GlisseTonPiedBotDotNet/bin/Debug/net5.0/image/update.png");
         }
 
         [Command("morpion")]
