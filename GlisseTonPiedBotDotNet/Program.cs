@@ -41,7 +41,7 @@ namespace GlisseTonPiedBot
             };
             await InstallCommandAsync();
 
-            await client.LoginAsync(TokenType.Bot, "ODI5Njk5NzIzODI0MzMyODU0.YG78FQ.wazRWXqMYB7NKeCgjNHRPkmaEJ4");
+            await client.LoginAsync(TokenType.Bot, "notoken");
             await client.StartAsync();
             await Task.Delay(-1);
         }
