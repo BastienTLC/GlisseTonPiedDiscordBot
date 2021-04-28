@@ -12,4 +12,19 @@
     <PackageReference Include="SixLabors.ImageSharp.Web" Version="1.0.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Update="Modules\VideoLinkData.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>VideoLinkData.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Modules\VideoLinkData.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>VideoLinkData.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
 </Project>

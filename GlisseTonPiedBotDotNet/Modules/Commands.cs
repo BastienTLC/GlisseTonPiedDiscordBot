@@ -13,6 +13,7 @@ using Discord.Commands;
 using Discord.Rest;
 using Discord.WebSocket;
 using GlisseTonPiedBot.Modules.Morpion;
+using GlisseTonPiedBotDotNet.Modules;
 using Image = SixLabors.ImageSharp.Image;
 
 namespace GlisseTonPiedBot.Modules

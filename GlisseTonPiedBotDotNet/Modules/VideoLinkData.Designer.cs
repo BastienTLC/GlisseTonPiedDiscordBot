@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace GlisseTonPiedBot.Modules {
+namespace GlisseTonPiedBotDotNet.Modules {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace GlisseTonPiedBot.Modules {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("GlisseTonPiedBot.Modules.VideoLinkData", typeof(VideoLinkData).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("GlisseTonPiedBotDotNet.Modules.VideoLinkData", typeof(VideoLinkData).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -66,6 +66,15 @@ namespace GlisseTonPiedBot.Modules {
         internal static string videoCafard {
             get {
                 return ResourceManager.GetString("videoCafard", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à https://cdn.discordapp.com/attachments/732571903729860695/830368477646815272/caffard.mp4.
+        /// </summary>
+        internal static string videoCafard1 {
+            get {
+                return ResourceManager.GetString("videoCafard1", resourceCulture);
             }
         }
         

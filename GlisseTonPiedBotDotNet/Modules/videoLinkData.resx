@@ -119,6 +119,9 @@
   </resheader>
   <data name="videoCafard" xml:space="preserve">
     <value>https://cdn.discordapp.com/attachments/732571903729860695/830368477646815272/caffard.mp4</value>
+  </data>
+  <data name="videoCafard1" xml:space="preserve">
+    <value>https://cdn.discordapp.com/attachments/732571903729860695/830368477646815272/caffard.mp4</value>
     <comment>play video macron cafaaard</comment>
   </data>
   <data name="videoChocolat" xml:space="preserve">
