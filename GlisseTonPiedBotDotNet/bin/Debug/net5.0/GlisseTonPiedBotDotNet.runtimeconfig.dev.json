@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\TALEC\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\TALEC\\.nuget\\packages"
+    ]
+  }
+}

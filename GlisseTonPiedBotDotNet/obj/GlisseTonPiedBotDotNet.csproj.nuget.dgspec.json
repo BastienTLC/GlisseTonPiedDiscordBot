@@ -1,0 +1,81 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\TALEC\\source\\repos\\GlisseTonPiedBotDotNet\\GlisseTonPiedDiscordBot\\GlisseTonPiedBotDotNet\\GlisseTonPiedBotDotNet.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\TALEC\\source\\repos\\GlisseTonPiedBotDotNet\\GlisseTonPiedDiscordBot\\GlisseTonPiedBotDotNet\\GlisseTonPiedBotDotNet.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\TALEC\\source\\repos\\GlisseTonPiedBotDotNet\\GlisseTonPiedDiscordBot\\GlisseTonPiedBotDotNet\\GlisseTonPiedBotDotNet.csproj",
+        "projectName": "GlisseTonPiedBotDotNet",
+        "projectPath": "C:\\Users\\TALEC\\source\\repos\\GlisseTonPiedBotDotNet\\GlisseTonPiedDiscordBot\\GlisseTonPiedBotDotNet\\GlisseTonPiedBotDotNet.csproj",
+        "packagesPath": "C:\\Users\\TALEC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\TALEC\\source\\repos\\GlisseTonPiedBotDotNet\\GlisseTonPiedDiscordBot\\GlisseTonPiedBotDotNet\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\TALEC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://packagesource": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Discord.Net": {
+              "target": "Package",
+              "version": "[2.3.1, )"
+            },
+            "SixLabors.ImageSharp": {
+              "target": "Package",
+              "version": "[1.0.3, )"
+            },
+            "SixLabors.ImageSharp.Drawing": {
+              "target": "Package",
+              "version": "[1.0.0-beta11, )"
+            },
+            "SixLabors.ImageSharp.Web": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
